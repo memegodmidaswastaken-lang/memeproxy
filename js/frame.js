@@ -1,8 +1,10 @@
-// Placeholder for frame.js
-console.log("frame.js loaded");
+// Show loading while iframe loads
+const iframe = document.querySelector('.frame');
+const loading = document.querySelector('.pageLoading');
 
-// Example: show loading animation while iframe loads
-document.querySelector('.frame').addEventListener('load', function() {
-    document.querySelector('.pageLoading').style.display = 'none';
-});
-
+if (iframe && loading) {
+    loading.style.display = 'flex';
+    iframe.addEventListener('load', () => {
+        loading.style.display = 'none';
+    });
+}

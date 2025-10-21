@@ -1,4 +1,25 @@
-<body style="background: black; font-family: 'Montserrat', sans-serif; margin:0; padding:0;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="An educational website full of school topics and academic resources.">
+  <meta name="keywords" content="utopia, math, science, ela, social studies, school, study">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="language" content="English">
+  <meta name="author" content="Utopia">
+
+  <title>Utopia Education</title>
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link href="/css/index.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
 
   <!-- Header with search bar -->
   <header class="header">
@@ -11,13 +32,24 @@
     <iframe class="frame" src="/main.html" frameborder="0"></iframe>
   </main>
 
-  <!-- Facts / content below iframe -->
+  <!-- Facts section -->
   <section class="facts">
-    <h2>Learn: ELA, Science, History, Math, Literature, Social Studies, Writing</h2>
-    <p>
-      Research historical events. Analyze experiments. Solve with the quadratic formula.
-      Find the theme of literature. Write essays. Learn about George Washington.
-    </p>
+    <div class="fact-item">
+      <h2>ELA</h2>
+      <p>Analyze literature, find themes, write essays, etc.</p>
+    </div>
+    <div class="fact-item">
+      <h2>Math</h2>
+      <p>Solve quadratic formulas, learn algebra, geometry, and more.</p>
+    </div>
+    <div class="fact-item">
+      <h2>Science</h2>
+      <p>Research experiments, understand biology, chemistry, physics.</p>
+    </div>
+    <div class="fact-item">
+      <h2>History</h2>
+      <p>Study historical events, write essays, analyze timelines.</p>
+    </div>
   </section>
 
   <!-- Optional loading / hide messages -->
@@ -27,4 +59,12 @@
   </div>
   <div class="hider">Click or press any key to hide this from your history.</div>
 
+  <!-- JS -->
+  <script src="/js/all.js"></script>
+  <script src="/js/all_body.js"></script>
+  <script src="/js/frame.js"></script>
+  <script src="/js/changeSrc.js"></script>
+
 </body>
+</html>
+

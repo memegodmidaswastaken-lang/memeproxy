@@ -1,3 +1,2 @@
-// Placeholder for all_body.js
+// Placeholder for any body scripts
 console.log("all_body.js loaded");
-
